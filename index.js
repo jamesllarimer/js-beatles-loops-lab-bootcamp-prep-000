@@ -6,10 +6,10 @@ function theBeatlesPlay(musicians, instruments){
   return stringArr;
 }
 
-function johnLennonFacts(musicians, instruments){
+function johnLennonFacts(facts){
   let stringArr = [];
-  for (var i = 0; i < musicians.length; i++){
-    stringArr.push(`${musicians[i]} plays ${instruments[i]}`)
+  while (facts.length > 0){
+    stringArr.push(`${facts.pop()}!`)
   }
   return stringArr;
 }
